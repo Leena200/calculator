@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title> demo of calculator</title>
+    </head>
+    <style>
+.calculator-container{
+    background-color: rgba(88, 30, 69, 0.685);
+    height: 700px;
+    width:400px ;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:100px;
+    border-radius: 30px ;
+    box-shadow: 5px 5px 7px 5px rgb(58, 39, 42);
+    padding: 10px;
+    
+    
+}
+.name{
+    color:whitesmoke;
+    margin-left:20px;
+    padding-top:20px;
+    display: block;
+    font-size: 30px;
+}
+.screen{
+    font-size:40px;
+    width: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(155, 144, 144) ;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    background-color: rgb(231, 211, 218);
+    height: 60px;
+    width: 80px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: solid lightblue;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 2px 5px wheat;
+    transition: o.5s;
+}
+.bg-rosybrown{
+background-color: rgb(236, 153, 199);
+color: darkred;
+font-size: 30px;
+}
+.bg-red{
+    background-color: rgb(39, 82, 117);
+    color: antiquewhite;
+}
+    </style>
+    <body>
+        <div class="calculator-container">
+<p class="name">RTC</p>
+<input type="text" class="screen"/>
+
+<div class="buttons-container">
+    <button class="btn bg-rosybrown">AC</button>
+        
+    
+    <button class="btn bg-rosybrown">(</button>
+    <button class="btn bg-rosybrown">)</button>
+    <button class="btn bg-rosybrown">/</button>
+    </div>
+
+<div class="buttons-container">
+<button class="btn">
+    7
+</button>
+<button class="btn">8</button>
+<button class="btn">9</button>
+<button class="btn bg-rosybrown">*</button>
+</div>
+
+<div class="buttons-container">
+    <button class="btn">4</button>
+        
+    
+    <button class="btn">5</button>
+    <button class="btn">6</button>
+    <button class="btn bg-rosybrown">-</button>
+    </div>
+    <div class="buttons-container">
+        <button class="btn">1</button>
+            
+        
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn bg-rosybrown">+</button>
+        </div>
+        <div class="buttons-container">
+            <button class="btn">0</button>
+                
+            
+            <button class="btn">.</button>
+            <button class="btn">%</button>
+            <button class="btn bg-red" >=</button>
+            </div>
+
+
+        </div>
+    </body>
+</html>
